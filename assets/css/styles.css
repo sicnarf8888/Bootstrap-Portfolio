@@ -1,0 +1,89 @@
+body {
+	background: url("../images/pattern.png");
+}
+
+hr {
+	border: 1px solid #dddddd;
+}
+
+.article > h1 {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+.myName {
+	background-color: #4aaaa5;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+.active {
+	color: #4aaaa5 !important;
+}
+
+.nav-item {
+	transition: all 0.5s;
+}
+
+.nav-item:hover {
+	background-color: #4aaaa5;
+	color: #ffffff !important;
+	border-radius: 10px;
+}
+
+footer {
+	border-top: 8px solid #4aaaa5;
+	background-color: #666666;
+}
+
+.contactInput {
+	width: 100%;
+}
+
+.submitButton {
+	background-color: #4aaaa5;
+	border: 1px solid #cccccc;
+}
+
+.category {
+	width: 250px;
+	height: 200px;
+	position: relative;
+}
+
+.label {
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	color: #ffffff;
+}
+
+.img1 {
+	background-size: cover;
+	background: url("https://loremflickr.com/500/500/hangman") no-repeat center;
+}
+
+.img2 {
+	background-size: cover;
+	background: url("https://loremflickr.com/500/500/rpg") no-repeat center;
+}
+
+.img3 {
+	background-size: cover;
+	background: url("https://loremflickr.com/500/500/trivia") no-repeat center;
+}
+
+.img4 {
+	background-size: cover;
+	background: url("https://loremflickr.com/500/500/rutgers") no-repeat center;
+}
+
+.img5 {
+	background-size: cover;
+	background: url("https://loremflickr.com/500/500/rockpaperscissors") no-repeat
+		center;
+}
